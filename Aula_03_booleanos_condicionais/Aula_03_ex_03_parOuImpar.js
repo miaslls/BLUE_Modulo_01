@@ -2,16 +2,17 @@ const prompt = require("prompt-sync")();
 
 // Faça um programa que leia um número, e informe se ele é par ou impar.
 
-let num = parseFloat(prompt("Número: "));
+let num;
+let numRaw = prompt("Digite um número inteiro: ");
 
-// // apenas inteiros:
-// while (num % 1 != 0 || isNaN(num)) {
-//   num = parseInt(prompt("INVÁLIDO. Digite um número inteiro: "));
-// }
+while (isNaN(numRaw)) {
+  numRaw = prompt("INVÁLIDO. Digite um número inteiro: ");
+}
 
-// para qualquer número (Int or Float):
-while (isNaN(num)) {
-  num = parseFloat(prompt("INVÁLIDO. Digite um número: "));
+num = numRaw;
+
+while (num % 1 != 0) {
+  num = prompt("INVÁLIDO. Digite um número inteiro: ");
 }
 
 if (num % 2 == 0) {
