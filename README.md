@@ -2,7 +2,7 @@
 
 ## Aula 01
 
-1. Leia 2 valores A e B, que correspondem a 2 notas de um aluno. A seguir calcule e informe a média ponderada do aluno, sabendo que a nota A tem peso 4 e a nota B tem peso 6. Ex: nota a * 4 e nota b * 6.
+1. Leia 2 valores A e B, que correspondem a 2 notas de um aluno. A seguir calcule e informe a média ponderada do aluno, sabendo que a nota A tem peso 4 e a nota B tem peso 6. Ex: nota a _ 4 e nota b _ 6.
 
 2. Neste problema, deve-se ler o nome de uma peça que chamaremos de peça1, o número de peças1 que o usuário quer, o valor unitário de cada peça1, o nome de uma peça2, o número de peças2 e o valor unitário de cada peça2. Após, calcule e mostre o valor a ser pago.
 
@@ -14,46 +14,18 @@
 
 ## Aula 02
 
-### **PROJETO | A Jornada do Herói**
-
-Hoje nós começamos o nosso primeiro projeto entregável! Esse projeto vai avaliar os conteúdos passados durante essa primeira semana, e se você consegue desenvolver uma programação utilizando todos eles.
-Você poderá usar as aulas de Codelab para trabalhar no seu projeto.
-A premissa é a seguinte: O nosso herói chegou ao fim da sua jornada, ao desafio final, e você pode criar um background legal resumindo qual foi essa jornada e onde ele chegou. Use sua criatividade! Vale qualquer coisa: Uma guerreira que percorreu um longo caminho para enfrentar um bruxo e salvar seu povo, um astronauta que teve que viajar aos confins da galáxia para deter uma anomalia que iria engolir seu planeta, ou uma pessoa que está voltando para casa ao fim de um dia cansativo e precisa fazer o jantar.
-Dependendo de como foi sua jornada, dos objetivos que foram concluídos no caminho, teremos um resultado final diferente.
-
-**Requisitos**
-
-Você deve criar um programa que faça 5 perguntas para o usuário, e dependendo das respostas, vai exibir um resultado diferente no final. As perguntas devem ser todas de Sim ou Não, e devem ser referentes aos objetivos que ele tiveram que ser cumpridos durante a jornada, por exemplo: "Você conseguiu encontrar a Espada Mágica da Chama da Estrela do Inverno?", "Você conseguiu consertar os reatores nucleares do motor de dobra?", "Você se lembrou de passar no mercado e comprar óleo?"
-No final, o programa deve fazer uma contagem de quantas respostas foram Sim, e exibir o resultado de acordo com esse número:
-
-+ 0 respostas Sim: Você falha miseravelmente.
-+ 1 ou 2 respostas Sim: Você falha, mas ainda consegue fugir da situação.
-+ 3 respostas Sim: Você chega perto de conseguir alcançar seu objetivo, mas acaba falhando por pouco.
-+ 4 respostas Sim: Depois de muito esforço você conquista seu objetivo, embora não de maneira perfeita.
-+ 5 respostas Sim: Você triunfa de maneira inquestionável e seus feitos serão lembrados por muitas gerações.
-
-O programa deve contar a história inicial (background), fazer as perguntas, e ao final, exibir o resultado de acordo com as situações acima.
-
-**Para hoje**
-
-+ Construir o rascunho da sua história
-+ Criar as variáveis com o prompt para fazer as perguntas e receber as respostas
-+ Exibir ao final o valor de cada uma das respostas
-
-### **EXERCÍCIOS**
-
 1. Frase na tela - Implemente um programa que escreve na tela a frase "O primeiro programa a gente nunca esquece!".
 
 2. Etiqueta - Elabore um programa que escreve seu nome completo na primeira linha, seu endereço na segunda, o CEP na terceira e o telefone na quarta.
 3. Letra de Música - Faça um programa que mostre na tela uma letra de música que você gosta.
 4. Tabela de notas - Você foi contratado ou contratada por uma escola pra fazer o sistema de boletim dos alunos. Como primeiro passo, escreva um programa que produza a seguinte saída:
 
-Aluno | &ensp; &ensp; Nota
----|---
-ALINE | &ensp; &ensp; 9.0
-MÁRIO | &ensp; &ensp; DEZ
-SÉRGIO | &ensp; &ensp; 4.5
-SHIRLEY | &ensp; &ensp; 7.0
+| Aluno   | &ensp; &ensp; Nota |
+| ------- | ------------------ |
+| ALINE   | &ensp; &ensp; 9.0  |
+| MÁRIO   | &ensp; &ensp; DEZ  |
+| SÉRGIO  | &ensp; &ensp; 4.5  |
+| SHIRLEY | &ensp; &ensp; 7.0  |
 
 5. Faça um programa de cadastro de clientes que mostre um menu de opções e permita com que a pessoa escolha umas das opções, exibindo qual foi a opção escolhida.
 
@@ -72,6 +44,7 @@ SHIRLEY | &ensp; &ensp; 7.0
 1. Faça um Programa que peça dois números e imprima o maior deles, e informe caso eles sejam iguais.
 
 2. Faça um programa para a leitura de quatro notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+
 + A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
 + A mensagem "Em recuperação", se a média for entre cinco e sete;
 + A mensagem "Reprovado", se a média for menor que cinco.
@@ -93,25 +66,9 @@ SHIRLEY | &ensp; &ensp; 7.0
 
 ## Aula 04
 
-### **PROJETO 1 | Continuação**
+1. Reajuste salarial - As empresas @.com resolveram dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
 
-Agora seu projeto já deve estar ganhando forma, você já tem as perguntas a serem feitas, e já sabe como usar o if para exibir diferentes resultados de acordo com cada situação.
-Para hoje o seu objetivo é:
-
-+ Pensar na melhor maneira de contar as respostas Sim do usuário.
-+ Escrever um programa que dependendo do número de respostas Sim exiba um console.log() diferente.
-
-Esses são os requisitos básicos para o seu projeto, que serão considerados essenciais na avaliação. Mas nada impede que você implemente novas funcionalidades! Você pode tanto usar o que foi visto em aula para tornar o seu programa ainda mais interessante, quanto usar coisas que ainda não foram vistas no curso, mas que você pode pesquisar por conta própria e implementar!
-
-Todos que apresentarem um projeto funcional receberão um certificado por ele! E aqueles que apresentarem funcionalidades inovadoras, ou seja, que vão além do que foi visto em aula, receberão um certificado de projeto destaque!
-
-Seja criativo, e caso tenha qualquer dúvida, não hesite em falar com o(a) professor(a)!
-
-### **EXERCÍCIOS**
-
-1. Reajuste salarial - As empresas @.com resolveram dar um aumento de salário aos seus colaboradores e lhe contrataram para desenvolver o programa que calculará os reajustes. Faça um programa que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual: 
-
-+ Salários até R$ 280,00 (incluindo): aumento de 20%. 
++ Salários até R$ 280,00 (incluindo): aumento de 20%.
 + Salários entre R$ 280,00 e R$ 700,00: aumento de 15%.
 + Salários entre R$ 700,00 e R$ 1500,00: aumento de 10%.
 + Salários de R$ 1500,00 em diante: aumento de 5%.
@@ -146,3 +103,21 @@ Após o aumento ser realizado, informe na tela:
 3. Faça um programa que peça um número par, e repita a execução caso o número digitado seja ímpar.
 
 4. Jogo da adivinhação - Escreva um programa que faça o computador “pensar” em um número inteiro entre 0 e 10 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. O programa deve ser repetir até o usuário acertar o número, e a cada palpite deve dizer se o número é maior ou menor que o palpite. No final dele deve escrever na tela que o usuário encontrou o número, e mostrar a quantidade de palpites que foi necessária.
+
+---
+
+## AULA 06 - **TO DO!**
+
+---
+
+## AULA 07
+
+1. Faça um programa que peça um número inteiro e crie arrays com:
++ Todos os números pares de 0 ao número escolhido
++ Todos os números ímpares do 0 ao número escolhido
+
+2. Crie um programa em que o usuário escolha a quantidade de notas serem entradas e depois peça e armazene essa quantidade de notas em um array. Ao final imprima a quantidade de alunos APROVADOS (nota >= 7), EM RECUPERAÇÃO (entre 5 e 7) e REPROVADOS (abaixo de 5).
+
+3. Faça um programa que sorteie 20 números de 0 a 100, armazene todos em um array e imprima em ordem crescente.
+
+4. Faça um programa que peça o nome de usuário e a senha de um usuário. A senha deve ter no mínimo 8 caracteres, pelo menos um número e um caracter especial.
