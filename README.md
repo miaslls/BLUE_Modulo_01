@@ -106,11 +106,19 @@ Após o aumento ser realizado, informe na tela:
 
 ---
 
-## AULA 06 - **TO DO!**
+## AULA 06 - TODO: ALL
+
+1. Faça um Programa que leia 20 números inteiros e armazene-os num array. Armazene os números pares no array PAR e os números IMPARES no array IMPAR. Imprima os três vetores.
+
+2. Faça um Programa que peça a idade e a altura de 5 pessoas, armazene cada informação no seu respectivo array. Imprima a média de idade e de altura.
+
+3. Faça um programa em que o usuário escolha a quantidade de alunos a serem cadastrados e peça o nome e nota de cada um. Armazene as informações em duas listas separadas e no final imprima o nome e a nota correspondente de cada aluno, e a média total da notas.
+
+4. Faça um programa que simule um lançamento de dados. Lance o dado 100 vezes e armazene os resultados em um array. Depois, mostre quantas vezes cada valor foi conseguido.
 
 ---
 
-## AULA 07
+## AULA 07 - TODO: 3, 4
 
 1. Faça um programa que peça um número inteiro e crie arrays com:
 + Todos os números pares de 0 ao número escolhido
@@ -121,3 +129,24 @@ Após o aumento ser realizado, informe na tela:
 3. Faça um programa que sorteie 20 números de 0 a 100, armazene todos em um array e imprima em ordem crescente.
 
 4. Faça um programa que peça o nome de usuário e a senha de um usuário. A senha deve ter no mínimo 8 caracteres, pelo menos um número e um caracter especial.
+
+---
+
+## AULA 08 - TODO: 3, 4
+
+1. Peça ao usuário uma quantidade de linhas e e outra de colunas, e imprima essas informações na forma de uma tabela como no exemplo de 3 linhas e 4 colunas:
+
+\[ 0, 1, 2, 3 \]
+\[ 1, 2, 3, 4 \]
+\[ 2, 3, 4, 5 \]
+
+2. Escreva um programa que peça um número e escreva o fatorial dele. Exemplo 6! = 6 x 5 x 4 x 3 x 2 x 1 = 720
+
+3. Faça um programa que peça um número e imprima toda a tabuada dele do 1 ao 10.
+
+4. Faça um programa que carregue uma lista com os modelos de cinco carros. Carregue uma outra lista com o consumo desses carros, isto é, quantos quilômetros cada um desses carros faz com um litro de combustível. Calcule e mostre:
+
++ O modelo do carro mais econômico;
++ Quantos litros de combustível cada um dos carros cadastrados consome para percorrer uma distância de 1000 quilômetros e quanto isto custará, considerando um que a gasolina custe R$ 5,50 o litro.
+
+---
